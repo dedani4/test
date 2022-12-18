@@ -3,7 +3,7 @@
 
 using static System.Console;
 
-Write("Enter two numbers: ");
+WriteLine("Enter two numbers: ");
 int a = Convert.ToInt32(ReadLine());
 int b = Convert.ToInt32(ReadLine());
 
