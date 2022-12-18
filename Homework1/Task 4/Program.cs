@@ -12,12 +12,11 @@ int b = Convert.ToInt32(ReadLine());
 Write("Enter third number: ");
 int c = Convert.ToInt32(ReadLine());
 
-if(a>b){
-    if(a>c || a==c) Write($"max = {a}");
-        else Write($"max = {c}");
+int max = a;
+
+if (a==b && b==c) WriteLine("Numbers are equal");
+else{
+if (b>max) max = b;
+if (c>max) max = c;
+WriteLine($"max = {max}");
 }
-if(a<b){
-    if(b>c || b==c) Write($"max = {b}");
-        else Write($"max = {c}");
-}
-if(a==b && b==c) WriteLine("All numbers are equal");
