@@ -1,5 +1,6 @@
 ﻿using static System.Console;
 
+ WriteLine ("Is the first number the second number squared?");
  WriteLine ("Enter 2 numbers: ");
  int a = Convert.ToInt32(ReadLine());
  int b = Convert.ToInt32(ReadLine());
