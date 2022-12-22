@@ -16,5 +16,9 @@ while (number<100){
     Write("Missed third digit, try again: ");
     number = Convert.ToInt32(ReadLine());
     }
-char[] numberArray = number.ToString().ToCharArray();
-WriteLine(numberArray[numberArray.Length-3].ToString());
+    
+// char[] numberArray = number.ToString().ToCharArray();
+// WriteLine(numberArray[numberArray.Length-3].ToString());
+
+WriteLine ((number/100)%10);
+
