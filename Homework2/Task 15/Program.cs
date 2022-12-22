@@ -12,5 +12,4 @@ while (number>7 || number<1){
     Write("There are 7 days in a week, try again: ");
     number = Convert.ToInt32(ReadLine());
     }
-if (number == 6 || number == 7) WriteLine("This is a weekend");
-else WriteLine("This is a workday");
+WriteLine((number == 6 || number == 7) ? "Weekend" : "Workday");
