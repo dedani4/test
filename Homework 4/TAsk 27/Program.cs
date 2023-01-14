@@ -4,10 +4,10 @@
 using static System.Console;
 Clear();
 
-Write("Enter number: ");
+Write("Enter a number: ");
 int A = Convert.ToInt32(ReadLine());
 
-WriteLine(SumDigitsNumber(A));
+WriteLine($"The sum of the digits of the number {A} is {SumDigitsNumber(A)}");
 
 int SumDigitsNumber(int num)
 {
