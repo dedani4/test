@@ -11,7 +11,7 @@ int[] array = GetArray(ReadLine());
 
 WriteLine(CountPositiveNumber(array) > 1 ?
             $"There are {CountPositiveNumber(array)} positive numbers" :
-            CountPositiveNumber(array) > 1 ? "There is one positive number" :
+            CountPositiveNumber(array) == 1 ? "There is one positive number" :
             "There is no positive numbers");
 
 
