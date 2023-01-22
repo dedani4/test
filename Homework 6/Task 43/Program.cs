@@ -32,8 +32,6 @@ Point FindCrossPoint(int[] arr)
     return cross;
 }
 
-
-
 struct Point
 {
     public double x;
